@@ -1,1 +1,1 @@
-[Website that was used to this studies](https://seanprashad.com/leetcode-patterns/)
+[Website that was used for these studies](https://seanprashad.com/leetcode-patterns/)
