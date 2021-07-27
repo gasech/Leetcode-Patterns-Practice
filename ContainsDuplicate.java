@@ -1,6 +1,6 @@
 import java.util.HashSet;
 import java.util.Arrays;
-// teste
+
 // Existem 3 tipos de aproximações diferentes a esse problema
 public class ContainsDuplicate {
     public static void main(String[] args) {
@@ -48,7 +48,7 @@ public class ContainsDuplicate {
     */
 
     static boolean containsDuplicate3(int[] nums) {
-        HashSet<Integer> set = new HashSet<Integer>();
+        HashSet<Integer> set = new HashSet<>();
         
         for(int i: nums){
             if(set.contains(i)) return true;
