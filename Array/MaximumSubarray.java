@@ -1,22 +1,26 @@
 package Array;
 
-import java.util.Arrays;
+import java.io.*;
+import java.util.*;
 
 public class MaximumSubarray {
   public static void main(String[] args) {
     int[] nums = { 5, 4, -1, 7, 8 };
-    findMaximumSubarray(nums);
+    findMaximumSubarray1(nums);
   }
 
-  static int findMaximumSubarray(int[] nums){
-    System.out.println(Arrays.toString(nums));
-    
-    int num1 = -2;
-    int num2 = 4;
-    int sum = num1 + num2;
+  static int findMaximumSubarray1(int[] nums){
+    int bestSum = 0;
 
-    System.out.println(sum);
+    for(int i = 0; i < nums.length; i++){
+      
+      for(int j = i; j < nums.length; j++){
+        
+      }
+    }
 
+    System.out.println(Integer.MIN_VALUE);
+  
     return 0;
   }
 }
